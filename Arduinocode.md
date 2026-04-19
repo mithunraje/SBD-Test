@@ -1,6 +1,6 @@
 # SBD-Test
 Sonar Based Detector (Radar kind of model)
-'''// Includes the Servo library
+// Includes the Servo library
 #include <Servo.h>. 
 // Defines Tirg and Echo pins of the Ultrasonic Sensor
 const int trigPin = 10;
@@ -50,4 +50,4 @@ int calculateDistance(){
   duration = pulseIn(echoPin, HIGH); // Reads the echoPin, returns the sound wave travel time in microseconds
   distance= duration*0.034/2;
   return distance;
-}'''
+}
